@@ -1,0 +1,3 @@
+detector:
+  model_selection: 1          # 0: faces ~2m, 1: faces ~5m (MediaPipe)
+  min_conf: 0.5
