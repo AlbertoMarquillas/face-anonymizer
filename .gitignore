@@ -1,0 +1,33 @@
+# --- Common ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.code-workspace
+build/
+dist/
+*.log
+logs/
+.cache/
+tmp/
+.ipynb_checkpoints/
+
+# Data/Models (keep README + .gitkeep)
+data/**
+!data/.gitkeep
+!data/README.md
+models/**
+!models/.gitkeep
+!models/README.md
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
